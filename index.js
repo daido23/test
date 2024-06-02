@@ -1,6 +1,6 @@
 const { Client, Events, GatewayIntentBits } = require("discord.js");
 
-require('dotenv-flow').config();
+require('dotenv').config({ path: 'data/.env' });
 
 const config = {
     token: process.env.DISCORD_TOKEN
